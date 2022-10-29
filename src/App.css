@@ -36,3 +36,12 @@
     transform: rotate(360deg);
   }
 }
+
+.foto{
+  height: 15rem;
+  width: 18rem;
+}
+
+.foto2{
+  height: 30rem;
+}

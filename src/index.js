@@ -3,6 +3,18 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import { initializeApp } from "firebase/app";
+
+const firebaseConfig = {
+  apiKey: "AIzaSyCXjO7zZJNwJrhmNeXN_VCm3AsluUb78JI",
+  authDomain: "forja2.firebaseapp.com",
+  projectId: "forja2",
+  storageBucket: "forja2.appspot.com",
+  messagingSenderId: "131142279969",
+  appId: "1:131142279969:web:2816b10569b13527445460"
+};
+
+const app = initializeApp(firebaseConfig);
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
